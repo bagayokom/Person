@@ -1,0 +1,21 @@
+# Mohamed Bagayoko
+# November 13 2019
+# Person
+
+
+class Person:
+    def __init__(self, name, height, weight, age):
+        self.name = name
+        self.height = height
+        self.weight = weight
+        self.age = age
+
+    def person_description(self):
+        print(f"The person name is {self.name}")
+        print(f"Your height is {self.height}")
+        print(f"Your weight is {self.weight}")
+        print(f"Your age is {self.age}")
+
+
+
+

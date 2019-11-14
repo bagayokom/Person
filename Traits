@@ -1,0 +1,16 @@
+from person import Person
+
+# Mohamed Bagayoko
+# November 13
+
+print("What's your name?")
+name = input("> ")
+print("What is your height?")
+height = int(input("> "))
+print("What is your weight?")
+weight = int(input("> "))
+print("What is your age?")
+age = int(input("> "))
+
+Mohamed = Person(name, height, weight, age)
+Mohamed.person_description()
